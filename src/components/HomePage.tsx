@@ -16,7 +16,7 @@ const HomePage = () => {
   useEffect(() => {
 setTimeout(()=>{
   setLoading(false)
-}, 1000)
+}, 3000)
   }, [])
   return <div className={`min-h-[100vh] ${loading?"flex":""} items-center overflow-hidden justify-center `}>
   {    loading!==true?<>
