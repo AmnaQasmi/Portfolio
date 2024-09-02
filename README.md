@@ -1,46 +1,93 @@
-# Getting Started with Create React App
+# Getting Started Creating Responsive Portfolio with Amna Qasmi 📱 💻 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made to show case your Skills, Working Experience, Projects that you have been work made. In this project you should install tailwindcss package from Tailwind website. And in this portfolio I've got experience using such an amazing ai libraries 
+* TailwindCss
+* Mantine Dev
+* Tabler's Icon
+* Flowbite
+* npm [Toast, React-pdf, Typewriter-effect, Vanta.js, AOS]
+* codepen.io [Css Scrollbars]
+* Magic Ui [Vast Library ]
+* AOS (Animate On Scroll Library)
+* Vantajs {lovely animated background (but not vast only 5-6 backgrounds are available) }
 
-## Available Scripts
+## key points must do 🙂 :
+1. must doulble check the import 
+2. must inject the theme in the app.tsx file 
+3. must write 
 
-In the project directory, you can run:
+  In tailwindConfig.js file dont miss any of the file 
+  if you miss you can't get access to that type of file.
 
-### `npm start`
+```
+ content: ["./src/**/*.{html,js,jsx,ts,tsx}"] 
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In App.tsx file must inject theme variable othewise you breakpoints won't😌  work properly.
+```
+const theme = createTheme({
+  breakpoints: {
+    'xs': '320px',
+    'sm': '476px',
+    'md': '640px',
+    'bs': '768px',
+    'lg': '900px',
+    'xl': '1024',
+    '2xl': '1280',
+  },
+});
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  return (
+    <MantineProvider theme={theme}>
+      <HomePage />
+    </MantineProvider>
+  );
+}
+```
+
+
+# Firebase console  
+in this portfolio I'm using firebase data base as backend to store data.
+
+# Must Try These Libraries In your Development, they are really helpful :)
+
+## What is Tabler ?
+Tabler is fully responsive and compatible with all modern browsers. You can also use it for there amazing icons library.
+
+## What is Mantine Dev ?
+Mantine is a React components library focused on providing great user and developer experience, Mantine also have a massive Icon library. You can use mantine in your favrouite framework such as :
+Usage with Next.js 
+```bash
+npx create-next-app@latest --typescript
+```
+Usage with Vite
+```bash
+npm create vite@latest
+```
+Remix, Gatsby, Typescript, Javascript, Jest, React and so on.
+
+## Installation 
+
+Use this UI Components Libraries such as Tabler.io, Mantine.dev to install an amazing ui component that will blow your mind.
+
+```bash
+// Mantine components can easily be use if once you create an Mantine project initially.
+// there components can be just import and use easily much better than shadcn ui.
+npm install  @tabler/core
+```
 
 ### `npm run build`
-
+Plz must do build it's really good.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Deployment 
+In my case I'm using vercel because there was an ease in it I'm using Vercel since my early days it gives you free domain, and I really like it alot.
+## VERCEL
+* Connect your Vercel account to github.
+* Which makes it easy to use, and user friendly.

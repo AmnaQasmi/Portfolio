@@ -1,4 +1,4 @@
-import { IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBrandYoutube, IconBrandLeetcode, IconBrandFacebook, IconBrandX } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandInstagram, IconBrandYoutube, IconBrandFacebook, IconBrandX } from "@tabler/icons-react";
 
 
 const Info = {
