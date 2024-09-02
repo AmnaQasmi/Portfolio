@@ -16,9 +16,9 @@ const HomePage = () => {
   useEffect(() => {
 setTimeout(()=>{
   setLoading(false)
-}, 3000)
+}, 5000)
   }, [])
-  return <div className={`min-h-[100vh] ${loading?"flex":""} items-center overflow-hidden justify-center `}>
+  return <div className={` focus-visible:[&_button]:!outline-none min-h-[100vh] ${loading?"flex":""} items-center overflow-hidden justify-center `}>
   {    loading!==true?<>
     <Toaster/>
       <Header />
