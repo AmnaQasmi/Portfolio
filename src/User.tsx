@@ -107,7 +107,8 @@ const ProjectInfo = [
         image: "Spotify.png",
         live: false,
         technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-        link: ""
+        link: null,
+        github:null
     },
     {
         title: "Facebook Clone",
@@ -115,7 +116,8 @@ const ProjectInfo = [
         image: "Facebook.png",
         live: false,
         technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://www.facebook.com/profile.php?id=61564648795671"
+        link: "https://www.facebook.com/profile.php?id=61564648795671",
+        github:null
     },
     {
         title: "Instagram Clone",
@@ -123,7 +125,8 @@ const ProjectInfo = [
         image: "Instagram.png",
         live: false,
         technologies: ["React", "Springboot", "Tailwind", "Heroicons", "Firebase", "MongoDB"],
-        link: "https://www.instagram.com/amnaaltaf360"
+        link: "https://www.instagram.com/amnaaltaf360",
+        github:null
     },
     {
         title: "Twitter X",
@@ -131,7 +134,8 @@ const ProjectInfo = [
         image: "twitterX.png",
         live: false,
         technologies: ["React", "Tailwind", "Ace Editor"],
-        link: "x.com/AmnaQasmi360"
+        link: "https://x.com/AmnaQasmi360",
+        github:null
     }
 ]
 
@@ -140,7 +144,7 @@ const socialLinks = [
     { link: "https://www.instagram.com/amnaaltaf360", icon: IconBrandInstagram },
     { link: "https://www.facebook.com/profile.php?id=61564648795671", icon: IconBrandFacebook }, 
     { link: "https://www.youtube.com/@CodeG.KwithAmna", icon: IconBrandYoutube },
-    { link: "x.com/AmnaQasmi360", icon: IconBrandX }
+    { link: "https://x.com/AmnaQasmi360", icon: IconBrandX }
 ];
 
 
