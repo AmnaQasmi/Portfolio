@@ -41,7 +41,7 @@ const ProjectCard = (props: any) => {
                 Show More
             </Button>
         </Card>
-        <FullProjectModal opened={opened} close={close} title={props.title} desc={props.desc} image={props.image} live={props.live} link={props.link} github={props.github} technologies={props.technologies} />
+        <FullProjectModal opened={opened} close={close} title={props.title} desc={props.desc} image={props.image} live={props.live} link={props.link} technologies={props.technologies} />
     </div>
 
 }

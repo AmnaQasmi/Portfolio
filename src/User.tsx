@@ -99,8 +99,7 @@ const ProjectInfo = [
         image: "Ekart.png",
         live: true,
         technologies: ["React", "Tailwind", "Redux", "Heroicons", "HeadlessUI"],
-        link: "https://code-mars.github.io/Ekart/",
-        github: "https://github.com/Code-Mars/Ekart/"
+        link: "https://code-mars.github.io/Ekart/"
     },
     {
         title: "Spotify Clone",
@@ -108,17 +107,15 @@ const ProjectInfo = [
         image: "Spotify.png",
         live: false,
         technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-        link: "https://github.com/Code-Mars/Spotify-Clone",
-        github: "https://github.com/Code-Mars/Spotify-Clone"
+        link: ""
     },
     {
-        title: "Travel Tracker",
-        desc: "Travel Tracker is a full-stack web application that allows users to track their travel experiences and share them with others. The front end is built with React, Bootstrap, while the back end uses Node.js, Express, and PostgresSQL. Users can create an account, log in, add new trips, and view their past trips on a map. The app features a clean, modern design with interactive maps and a user-friendly interface. Travel Tracker combines functionality with style, making it easy and enjoyable to record and share travel memories.",
-        image: "Travel.png",
+        title: "Facebook Clone",
+        desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, image uploading, and commenting. The front end is built with React, TailwindCSS, and Heroicons, while the back end uses Firebase for user authentication and image storage. Users can create an account, log in, upload images, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
+        image: "Facebook.png",
         live: false,
         technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://github.com/Code-Mars/Travel-Tracker",
-        github: "https://github.com/Code-Mars/Travel-Tracker"
+        link: "https://www.facebook.com/profile.php?id=61564648795671"
     },
     {
         title: "Instagram Clone",
@@ -126,17 +123,15 @@ const ProjectInfo = [
         image: "Instagram.png",
         live: false,
         technologies: ["React", "Springboot", "Tailwind", "Heroicons", "Firebase", "MongoDB"],
-        link: "https://github.com/Code-Mars/Instagram-Clone",
-        github: "https://github.com/Code-Mars/Instagram-Clone"
+        link: "https://www.instagram.com/amnaaltaf360"
     },
     {
-        title: "CodeX Code Editor",
-        desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, offering a seamless coding experience across all devices. It features syntax highlighting for popular programming languages, including HTML, CSS, JavaScript, Python, and Java. Users can create, edit, and save code files, with the option to download them as text files. CodeX combines robust functionality with a sleek, intuitive design, making coding effortless and enjoyable.",
-        image: "CodeX.png",
+        title: "Twitter X",
+        desc: "Twitter X ek modern, fully responsive social media platform hai jo React aur Tailwind CSS par based hai. Ye platform users ko real-time mein posts create, edit, aur share karne ki suvidha deta hai. Users apne thoughts, images, aur videos ko tweets ke roop mein share kar sakte hain, dusre users ke tweets ko like, comment, aur retweet kar sakte hain. Platform mein live updates, notifications, aur trending topics jaise features shamil hain, jo ek engaging aur seamless experience provide karte hain. Twitter X sleek design ke saath performance-oriented hai, jismein security aur scalability bhi ensured hai, making it an ideal platform for connecting with friends, following influencers, aur latest news se updated rehne ke liye.",
+        image: "twitterX.png",
         live: false,
         technologies: ["React", "Tailwind", "Ace Editor"],
-        link: "https://github.com/Code-Mars/CodeX",
-        github: "https://github.com/Code-Mars/CodeX"
+        link: "x.com/AmnaQasmi360"
     }
 ]
 
