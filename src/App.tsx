@@ -1,4 +1,5 @@
 
+import {Helmet} from "react-helmet";
 import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
 import HomePage from './components/HomePage';
@@ -36,6 +37,16 @@ const theme = createTheme({
 
   return (
     <MantineProvider theme={theme}>
+    
+    <Helmet>
+        <title>Amna's Portfolio</title>
+        <meta name="description" content="Amna's portfolio showcasing web development skills." />
+        <meta property="og:title" content="Amna's Portfolio" />
+        <meta property="og:description" content="Amna's portfolio showcasing web development skills." />
+        <meta property="og:image" content="/path-to-image.jpg" />
+        {/* Additional meta tags if needed */}
+      </Helmet>
+      
       <HomePage />
     </MantineProvider>
   );

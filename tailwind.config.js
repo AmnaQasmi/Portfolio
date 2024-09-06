@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  siteUrl: 'https://portfolio30-amna-qasmis-projects.vercel.app',
+  generateRobotsTxt: true,
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     extend: {
