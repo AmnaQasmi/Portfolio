@@ -12,9 +12,10 @@ This project was made to showcase your skills, working experience, and projects 
 * Vantajs {lovely animated background (but not vast; only 5-6 backgrounds are available)}
 
 ## Key Points Must Do🙂 :
-1. must double check the import
-2. must inject the theme in the app.tsx file
-3. must write
+1. must double check the import.
+2. must inject the theme in the app.tsx file.
+3. must write.
+4. must increase SEO optimization as I'm doing in my project.
 
 In the tailwindConfig.js file, don't miss any of the file
 If you miss, you can't get access to that type of file.
@@ -41,6 +42,19 @@ const theme = createTheme({
 
   return (
 <MantineProvider theme={theme}>
+
+// I'm using React-helmet Library to optimaize it & to increase it's SEO.
+// Trust me it's easier then ever.
+
+ <Helmet>
+        <title>Amna's Portfolio</title>
+        <meta name="description" content="Amna's portfolio showcasing web development skills." />
+        <meta property="og:title" content="Amna's Portfolio" />
+        <meta property="og:description" content="Amna's portfolio showcasing web development skills." />
+        <meta property="og:image" content="/path-to-image.jpg" />
+        {/* Additional meta tags if needed */}
+      </Helmet>
+      
 <HomePage />
 </MantineProvider>
 );
@@ -50,6 +64,14 @@ const theme = createTheme({
 
 # Firebase console 
 In this portfolio, I'm using Firebase Data Base as the backend to store data.
+
+# Search Engine Optimization (SEO) 🔎
+For SEO I'm using the react-helmet library & in this project I'll help you to know how to inject,use or implement React-Helmet in ReactJS framework
+```bash
+npm i react-helmet
+
+npm i --save-dev @types/react-helmet
+```
 
 # Must Try These Libraries in Your Development; they are really helpful.
 
