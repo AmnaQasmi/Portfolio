@@ -39,9 +39,9 @@ const theme = createTheme({
     <MantineProvider theme={theme}>
     
     <Helmet>
-        <title>Amna's Portfolio</title>
+        <title>AmnaQ Portfolio</title>
         <meta name="description" content="Amna's portfolio showcasing web development skills." />
-        <meta property="og:title" content="Amna's Portfolio" />
+        <meta property="og:title" content="Amna Qasmi Portfolio" />
         <meta property="og:description" content="Amna's portfolio showcasing web development skills." />
         <meta property="og:image" content="/path-to-image.jpg" />
         {/* Additional meta tags if needed */}
