@@ -10,6 +10,7 @@ module.exports = {
         bgColor: '#0A192F',
         primaryColor: '#64ffda',
         textColor: '#8892B0',
+        
 
       },
       animation: {

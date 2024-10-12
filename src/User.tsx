@@ -3,7 +3,7 @@ import { IconBrandGithub, IconBrandInstagram, IconBrandYoutube, IconBrandFaceboo
 
 const Info = {
     name: "Amna Qasmi",
-    stack: ['Web Developer', 'Freelancer', 'Front-End Developer', "Web App Developer"],
+    stack: ['Software Engineer', 'Freelancer', 'Front-End Developer', "Website Developer"],
     bio: "I'm a passionate web developer specializing in crafting efficient, scalable, and fast websites. I deliver top-notch applications and provide freelance services that exceed client expectations. I help startups attract clients, boost their businesses, and gain more customers through highly convertible and responsive websites that help scale their operations. Let's connect and create something amazing together!"
 }
 

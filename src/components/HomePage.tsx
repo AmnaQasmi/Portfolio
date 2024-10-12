@@ -8,6 +8,7 @@ import Mail from './Mail';
 import Project from './Project';
 import Skills from './Skills';
 import Social from './Social';
+import ChatBot from './ChatBot';
 import { useEffect, useState } from 'react';
 import { Toaster } from 'react-hot-toast';
 
@@ -22,6 +23,7 @@ setTimeout(()=>{
   {    loading!==true?<>
     <Toaster/>
       <Header />
+      <ChatBot />
       <About />
       <Project />
       <Skills />
@@ -37,5 +39,5 @@ setTimeout(()=>{
     </div>
 }
 
-export default HomePage
+export default HomePage;
 

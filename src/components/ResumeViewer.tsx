@@ -1,5 +1,5 @@
-import { ActionIcon, Button, Modal, ScrollArea, Tooltip } from "@mantine/core";
-import { IconAdjustments, IconArrowBigDownLinesFilled } from "@tabler/icons-react";
+import { ActionIcon, Modal, ScrollArea, Tooltip } from "@mantine/core";
+import { IconArrowBigDownLinesFilled } from "@tabler/icons-react";
 import { useState } from "react";
 import { Document, Page } from "react-pdf";
 import { Info } from "../User";
