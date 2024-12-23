@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-// @ts-ignore
 import { useTheme } from "next-themes";
 import {
   Cloud,
@@ -33,7 +32,7 @@ export const cloudProps: Omit<ICloud, "children"> = {
     tooltipDelay: 0,
     outlineColour: "#0000",
     maxSpeed: 0.07,
-    minSpeed: 0.02,
+    minSpeed: 0.05,
     // dragControl: false,
   },
 };
@@ -83,7 +82,7 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
   return (
     // @ts-ignore
     <Cloud {...cloudProps}>
-        // @ts-ignore
+            // @ts-ignore
       <>{renderedIcons}</>
     </Cloud>
   );
