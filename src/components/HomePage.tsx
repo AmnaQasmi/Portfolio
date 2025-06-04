@@ -11,6 +11,7 @@ import Social from './Social';
 import ChatBot from './ChatBot';
 import { useEffect, useState } from 'react';
 import { Toaster } from 'react-hot-toast';
+import { SmoothCursor } from "../components/magicui/Smooth-Cursor";
 
 const HomePage = () => {
   const [loading, setLoading] = useState (true);
@@ -20,6 +21,7 @@ setTimeout(()=>{
 }, 5000)
   }, [])
   return <div className={` focus-visible:[&_button]:!outline-none min-h-[100vh] ${loading?"flex":""} items-center overflow-hidden justify-center `}>
+    <SmoothCursor />
   {    loading!==true?<>
     <Toaster/>
       <Header />

@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+     "baseUrl": ".",
     "lib": [
       "dom",
       "dom.iterable",
@@ -20,7 +21,11 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+   "paths": {
+      "@/*": ["./*", "src/*", "src/*/index.ts", "src/*/index.tsx"]
+    },
   "include": [
-    "src"
+    "src","./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/magicui/components/**/*.{ts,tsx}",
   ]
 }

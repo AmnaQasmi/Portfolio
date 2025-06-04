@@ -2,7 +2,10 @@
 module.exports = {
   siteUrl: 'https://portfolio30-amna-qasmis-projects.vercel.app',
   generateRobotsTxt: true,
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/magicui/components/**/*.{ts,tsx}", // 🔥 This line is required 
+  ],
   theme: {
     extend: {
       colors: {

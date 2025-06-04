@@ -7,7 +7,7 @@ import { pdfjs } from 'react-pdf';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+// import { SmoothCursor } from "../src/components/magicui/Smooth-Cursor";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.mjs',
@@ -46,7 +46,7 @@ const theme = createTheme({
         <meta property="og:image" content="/path-to-image.jpg" />
         {/* Additional meta tags if needed */}
       </Helmet>
-      
+      {/* <SmoothCursor /> */}
       <HomePage />
     </MantineProvider>
   );
