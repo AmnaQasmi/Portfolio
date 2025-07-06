@@ -48,7 +48,7 @@ const skillInfo = [
     },
     {
         title: "Back-End",
-        skills: ["Node JS"]
+        skills: ["Node JS", "Firebase", "Supabase", "Stripe"]
     },
     {
         title: "Languages",
@@ -56,7 +56,7 @@ const skillInfo = [
     },
     {
         title: "Tools",
-        skills: ["Github", "VS Code", "ThunderClient"]
+        skills: ["Github", "VS Code", "ThunderClient", "CursorAI"]
     }
 ]
 
