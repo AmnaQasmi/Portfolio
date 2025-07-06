@@ -20,8 +20,9 @@ setTimeout(()=>{
   setLoading(false)
 }, 5000)
   }, [])
-  return <div className={` focus-visible:[&_button]:!outline-none min-h-[100vh] ${loading?"flex":""} items-center overflow-hidden justify-center `}>
+  return <>
     <SmoothCursor />
+    <div className={` focus-visible:[&_button]:!outline-none min-h-[100vh] ${loading?"flex":""} items-center overflow-hidden justify-center `}>
   {    loading!==true?<>
     <Toaster/>
       <Header />
@@ -39,6 +40,7 @@ setTimeout(()=>{
       }
       
     </div>
+    </>
 }
 
 export default HomePage;

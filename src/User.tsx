@@ -44,7 +44,7 @@ const Slugs = [
 const skillInfo = [
     {
         title: "Front-End",
-        skills: ["HTML", "CSS", "Next JS", "JavaScript", "React JS", "Redux", "Tailwind CSS", "Shadcn UI", "Bootstrap", "Mantine UI", "Sanity"]
+        skills: ["HTML", "CSS", "Next JS", "JavaScript", "React JS", "Redux", "Tailwind CSS", "Shadcnui", "Bootstrap", "Mantine UI", "Sanity"]
     },
     {
         title: "Back-End",
@@ -63,7 +63,7 @@ const skillInfo = [
 const ExperienceInfo = [{
     role: "Skills Learner",
     company: "PIAIC",
-    date: "Oct 2023 - Q1, Q2 Completed",
+    date: "Oct 2023 - Q1, Q2, Q3, Q4 Completed",
     desc: "I utilized my skills in JavaScript, TypeScript, and React.js to develop and optimize applications using Next.js, which enhanced website performance and loading speeds. I also improved database performance with Sanity, ensuring greater data reliability and application scalability.",
     skills: ["Next JS", "Javascript", "React JS", "Typescript", "Node Js", "Web Development"],
     field: "Certified Cloud Applied Generative AI Engineer"
@@ -71,7 +71,7 @@ const ExperienceInfo = [{
 {
     role: "Web-Developer",
     company: "PIAIC",
-    date: "Aug 2024 - Q3 Present",
+    date: "Aug 2025 - Q5 Present",
     desc: "I expanded my skill set by learning Python for scripting and automation, and explored Docker and DockerHub for containerizing applications to ensure consistent environments across development and production. I also delved into creating Custom GPTs for advanced AI-driven solutions and used Zapier to automate workflows, integrating multiple services seamlessly.",
     skills: ["Python", "Docker", "DockerHub", "Custom GPTs", "Zapier"],
     field: "Certified Cloud Applied Generative AI Engineer"
@@ -98,31 +98,31 @@ const ProjectInfo = [
         github:"https://github.com/AmnaQasmi/ROULETTE_by_Casino-Royal"
     },
     {
-        title: "Spotify Clone",
-        desc: "Spotify Clone is a full-stack web application that replicates the core features of Spotify, including user authentication, music playback, and playlist creation. The front end is built with React, TailwindCSS, Heroicons, and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, search for songs, and create playlists. The app features real-time updates, so users can see new songs as they are added. Spotify Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "Spotify.png",
-        live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-        link: null,
-        github:null
+        title: "Soulove4U Voice & ChatBot",
+        desc: "SouLove4U is chat and voice bot application which I've been made From Bolt Because this project of mine was for Bolt.New Hackathon In this I've use supbase for bettet scalability. Also using Openrouter.ai for better AI response for best reasoning and human like voice, In future I also add eleven Labs for and give my voice to the bot for more connectivity. This project is my first very emotionally connected project and I've learned a lot from it.",
+        image: "Soulove4u.png",
+        live: true,
+        technologies: ["Next.Js", "Supabase", "Tailwind-Css", "Tabler-Icons", "Bolt.New", "Openrouter.ai"],
+        link: "https://soulove4u.vercel.app/",
+        github: "https://github.com/AmnaQasmi/Soulove4U"
     },
     {
-        title: "Facebook Clone",
-        desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, image uploading, and commenting. The front end is built with React, TailwindCSS, and Heroicons, while the back end uses Firebase for user authentication and image storage. Users can create an account, log in, upload images, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "Facebook.png",
-        live: false,
-        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://www.facebook.com/profile.php?id=61564648795671",
-        github:null
+        title: "Client-Web SheikhSahabBarberPoint ",
+        desc: "This project is a client-side web application that provides a seamless booking experience for a barber shop. It allows users to schedule appointments, view services, and manage their bookings. The application is built using Next.js, Node.js, and Netlify, and features a clean, modern design with a focus on user experience. The project includes a booking system, a service catalog, and a user dashboard, all of which are designed to provide a smooth and efficient booking process.",
+        image: "SSbarberpoint.png",
+        live: true,
+        technologies: ["Next.js", "Node.js", "Netlify", "Tailwind-Css", "CookiesPolicy", "Bolt.New"],
+        link: "https://sheikhsahabbarberpoint.netlify.app/",
+        github:"https://github.com/AmnaQasmi/SheikhSahabBarberPoint"
     },
     {
-        title: "Instagram Clone",
-        desc: "Instagram Clone is a full-stack web application that replicates the core features of Instagram, including user authentication, image uploading, and commenting. The front end is built with React, TailwindCSS, and Heroicons, while the back end uses Firebase for user authentication and image storage. Users can create an account, log in, upload images, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Instagram Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "Instagram.png",
-        live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Heroicons", "Firebase", "MongoDB"],
-        link: "https://www.instagram.com/amnaaltaf360",
-        github:null
+        title: "Child Pedi-Care Bot",
+        desc: "I,ve build this project with my team in an Hackathon yes you're right in another hackathon which was conducted by 'Build With AI Hackathon' 'Digital Ocean & Colabs' in this hackathon trust me this was my first time in any hackathon and I've learnt alot form others. This was such a nice and amazing experience for a person like me who have never a pofessional suddenly met alots of them.",
+        image: "PediCare.png",
+        live: true,
+        technologies: ["Bolt.new", "CursorA.I", "Tailwind-Css", "Lucide React", "React 18 with TypeScript", "Vite", "Openrouter.ai"],
+        link: "pedia-care-nine.vercel.app",
+        github:"https://github.com/AmnaQasmi/Pedia-Care-Hackathon-Digital-Ocean-Colabs"
     },
     {
         title: "Twitter X",

@@ -113,12 +113,33 @@ export function SmoothCursor({
       });
     };
 
+    // Hide cursor globally
     document.body.style.cursor = "none";
+    document.documentElement.style.cursor = "none";
+    
+    // Hide cursor on all elements
+    const style = document.createElement('style');
+    style.id = 'custom-cursor-style';
+    style.textContent = `
+      * {
+        cursor: none !important;
+      }
+    `;
+    document.head.appendChild(style);
+    
     window.addEventListener("mousemove", throttledMouseMove);
 
     return () => {
       window.removeEventListener("mousemove", throttledMouseMove);
       document.body.style.cursor = "auto";
+      document.documentElement.style.cursor = "auto";
+      
+      // Remove the global cursor style
+      const style = document.getElementById('custom-cursor-style');
+      if (style) {
+        style.remove();
+      }
+      
       if (rafId) cancelAnimationFrame(rafId);
     };
   }, [cursorX, cursorY, rotation, scale]);
@@ -133,11 +154,14 @@ export function SmoothCursor({
         translateY: "-50%",
         rotate: rotation,
         scale: scale,
-        zIndex: 100,
+        zIndex: 9999,
         pointerEvents: "none",
         willChange: "transform",
+        isolation: "isolate",
+        filter: "drop-shadow(0 0 5px #64ffda)",
+
       }}
-      initial={{ scale: 0 }}
+      initial={{ scale: 0.5 }}
       animate={{ scale: 0.5 }}
       transition={{ type: "spring", stiffness: 300, damping: 20 }}
     >

@@ -15,7 +15,7 @@ const ChatBot = () => {
                     onClick={toggle}
                     onMouseEnter={() => setHovered(true)}
                     onMouseLeave={() => setHovered(false)}
-                    className={`cursor-pointer transition-transform duration-300 transform ${hovered ? 'hover:text-primaryColor scale-110' : 'text-textColor'
+                    className={`transition-transform duration-300 transform ${hovered ? 'hover:text-primaryColor scale-110' : 'text-textColor'
                         } ${opened ? '' : 'transform -scale-x-100'}`}
                 />
                 {opened && (
