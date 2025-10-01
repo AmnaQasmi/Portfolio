@@ -178,7 +178,7 @@ const ProjectInfo = [
         github: null
     },
     {
-        title: "Görev Aracısı  Agent (Task-Manager AI Agent)",
+        title: "Görev-Aracısı (Task-Manager AI Agent)",
         desc: "Twitter X ek modern, fully responsive social media platform hai jo React aur Tailwind CSS par based hai. Ye platform users ko real-time mein posts create, edit, aur share karne ki suvidha deta hai. Users apne thoughts, images, aur videos ko tweets ke roop mein share kar sakte hain, dusre users ke tweets ko like, comment, aur retweet kar sakte hain. Platform mein live updates, notifications, aur trending topics jaise features shamil hain, jo ek engaging aur seamless experience provide karte hain. Twitter X sleek design ke saath performance-oriented hai, jismein security aur scalability bhi ensured hai, making it an ideal platform for connecting with friends, following influencers, aur latest news se updated rehne ke liye.",
         image: "GörevAracısı.png",
         live: true,
