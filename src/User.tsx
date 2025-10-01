@@ -123,60 +123,60 @@ const ProjectInfo = [
         link: "https://v-motor.vercel.app/",
         github: "https://github.com/AmnaQasmi/next18-deploy"
     },
-    {
-        title: "Aykays-Project Chronicle (Blog-Site) ",
-        desc: "Chronicle is a modern, user-friendly blogging and publishing platform that allows users to write, edit, and share articles seamlessly with an engaging reading experience. It supports features like content formatting, categorization, commenting, and responsive design to ensure accessibility across devices. Designed with scalability and performance in mind, Chronicle provides a clean interface for writers and readers alike, making it an efficient solution for digital publishing. And MongoDB/PostgreSQL for a fast, responsive, and scalable experience.",
-        image: "Chronicle.png",
-        live: true,
-        technologies: ["Next.js(React)", "TailwindCSS", "Supabase", "TypeScript", "Node.js"],
-        link: "https://chronicle.base44.app/",
-        github: null
-    },
-    {
-        title: "Aykays-Project EduMaster(LMS)",
-        desc: "EduMaster LMS is a modern, scalable Learning Management System designed for educational institutions, instructors, and students. It provides role-based access for admins, teachers, and learners, with features such as course creation, curriculum structuring, multimedia content delivery, quizzes, and progress tracking. Built using a modern frontend framework (React/Next.js) with a clean, responsive UI, and powered by a secure backend (Node.js/FastAPI/Django) with database integration, it ensures seamless learning experiences. The platform supports real-time updates, cloud-based storage for media, and analytics dashboards, making it an efficient and professional solution for online education.",
-        image: "EduMaster.png",
-        live: true,
-        technologies: ["React", "TailwindCSS", "Node.js (Express)", "Chart.js", "JWT Authentication & Authorization"],
-        link: "https://edu-master-lms.base44.app/",
-        github: null
-    },
-    {
-        title: "Aykays-Project Event-Hive(EMS)",
-        desc: "Event Management System frontend. Here's how I'll work I'll build the complete user interface for the event calendar, dashboards, and event management pages, keeping the beautiful honey-themed design you like. Role-based access: Admin and Regular User, Protected routes with middleware. For now, I'll use your browser's localStorage to simulate all the backend functionality like creating events, RSVPing, and user roles. This will make the app feel fully functional!Full-featured Calendar: A beautiful, interactive calendar powered by FullCalendar.js to view all events.User & Admin Roles: A complete login and signup system that simulates user and admin roles.Dashboards for Everyone: Separate, functional dashboards for both regular users (to see their created events and RSVPs) and admins (to approve, reject, and manage all events).Event Management: You can create, edit, delete, and RSVP to events, all through a sleek modal interface.Persistent Data: All your users and events are saved in your browser's localStorage, so everything will be there when you come back!",
-        image: "EventHive.png",
-        live: true,
-        technologies: ["React", "TailwindCSS", "Node.js(Back-End)", "MongoDB Atlas (Database)", "JWT-based (Authentication)", "FullCalendar.js"],
-        link: "https://youtu.be/VXccxT9lVZw?si=WV-2ykthWReTaIFS",
-        github: null
-    },
-    {
-        title: "Aykays-Project Firebase Mastery Course ",
-        desc: "This course teaches you how to build a professional web application using Firebase. You'll learn how to use Firebase's real-time database, authentication, and storage services to build a scalable and secure application. You'll also learn how to use Firebase's hosting service to deploy your application. You'll also learn how to use Firebase's crash reporting service to track your application's crashes. You'll also learn how to use Firebase's remote config service to track your application's performance. You'll also learn how to use Firebase's performance monitoring service to track your application's performance. You'll also learn how to use Firebase's crash reporting service to track your application's crashes.",
-        image: "FirebaseMastery.png",
-        live: true,
-        technologies: ["React", "TailwindCSS", "Firebase"],
-        link: "https://firebase-mastery-by.base44.app/",
-        github: null
-    },
-    {
-        title: "Aykays-Project LandingPage Generator",
-        desc: "Crafty is a sleek, modern web application that offers a creative platform for users to design, share, and manage their artistic projects. The interface is built to be intuitive and visually engaging, allowing seamless navigation between creative tools, galleries, and project templates. It supports responsive design so that creators can work from desktops, tablets, or mobile devices without compromise. Users can upload images, collaborate on designs, and curate portfolios or showcase work to an audience. Key Functionalities: 🎨 Design editor with drag-and-drop tools • 📂 Media upload & asset management • 📱 Responsive interface • 👤 Authentication & project saving • 🔄 Real-time preview • 🖼️ PNG download/export support • ⚡ Fast rendering and performance optimization. ",
-        image: "LandingPage.png",
-        live: true,
-        technologies: ["Next.js/React", "TailwindCSS", "Node.js", "Cloud Storage (AWS/Cloudinary)"],
-        link: "https://crafty.base44.app/",
-        github: null
-    },
-    {
-        title: "Aykays-Project (UI of the Project On Aykays)",
-        desc: "This project is a modern government and public sector services landing page UI, built entirely with HTML, CSS, and JavaScript. It showcases a clean, responsive layout with structured sections, including key statistics, service capabilities, program highlights, and solution priorities. The design focuses on trust-building and professionalism, with an emphasis on clear typography, balanced spacing, and visual hierarchy. As a frontend-only implementation, the project demonstrates skills in creating pixel-perfect layouts, responsive design, and user-friendly interfaces without backend integration.",
-        image: "UI-Aykays.png",
-        live: true,
-        technologies: ["HTML", "CSS3", "Javascript"],
-        link: "./UI-index.html",
-        github: null
-    },
+    // {
+    //     title: "Aykays-Project Chronicle (Blog-Site) ",
+    //     desc: "Chronicle is a modern, user-friendly blogging and publishing platform that allows users to write, edit, and share articles seamlessly with an engaging reading experience. It supports features like content formatting, categorization, commenting, and responsive design to ensure accessibility across devices. Designed with scalability and performance in mind, Chronicle provides a clean interface for writers and readers alike, making it an efficient solution for digital publishing. And MongoDB/PostgreSQL for a fast, responsive, and scalable experience.",
+    //     image: "Chronicle.png",
+    //     live: true,
+    //     technologies: ["Next.js(React)", "TailwindCSS", "Supabase", "TypeScript", "Node.js"],
+    //     link: "https://chronicle.base44.app/",
+    //     github: null
+    // },
+    // {
+    //     title: "Aykays-Project EduMaster(LMS)",
+    //     desc: "EduMaster LMS is a modern, scalable Learning Management System designed for educational institutions, instructors, and students. It provides role-based access for admins, teachers, and learners, with features such as course creation, curriculum structuring, multimedia content delivery, quizzes, and progress tracking. Built using a modern frontend framework (React/Next.js) with a clean, responsive UI, and powered by a secure backend (Node.js/FastAPI/Django) with database integration, it ensures seamless learning experiences. The platform supports real-time updates, cloud-based storage for media, and analytics dashboards, making it an efficient and professional solution for online education.",
+    //     image: "EduMaster.png",
+    //     live: true,
+    //     technologies: ["React", "TailwindCSS", "Node.js (Express)", "Chart.js", "JWT Authentication & Authorization"],
+    //     link: "https://edu-master-lms.base44.app/",
+    //     github: null
+    // },
+    // {
+    //     title: "Aykays-Project Event-Hive(EMS)",
+    //     desc: "Event Management System frontend. Here's how I'll work I'll build the complete user interface for the event calendar, dashboards, and event management pages, keeping the beautiful honey-themed design you like. Role-based access: Admin and Regular User, Protected routes with middleware. For now, I'll use your browser's localStorage to simulate all the backend functionality like creating events, RSVPing, and user roles. This will make the app feel fully functional!Full-featured Calendar: A beautiful, interactive calendar powered by FullCalendar.js to view all events.User & Admin Roles: A complete login and signup system that simulates user and admin roles.Dashboards for Everyone: Separate, functional dashboards for both regular users (to see their created events and RSVPs) and admins (to approve, reject, and manage all events).Event Management: You can create, edit, delete, and RSVP to events, all through a sleek modal interface.Persistent Data: All your users and events are saved in your browser's localStorage, so everything will be there when you come back!",
+    //     image: "EventHive.png",
+    //     live: true,
+    //     technologies: ["React", "TailwindCSS", "Node.js(Back-End)", "MongoDB Atlas (Database)", "JWT-based (Authentication)", "FullCalendar.js"],
+    //     link: "https://youtu.be/VXccxT9lVZw?si=WV-2ykthWReTaIFS",
+    //     github: null
+    // },
+    // {
+    //     title: "Aykays-Project Firebase Mastery Course ",
+    //     desc: "This course teaches you how to build a professional web application using Firebase. You'll learn how to use Firebase's real-time database, authentication, and storage services to build a scalable and secure application. You'll also learn how to use Firebase's hosting service to deploy your application. You'll also learn how to use Firebase's crash reporting service to track your application's crashes. You'll also learn how to use Firebase's remote config service to track your application's performance. You'll also learn how to use Firebase's performance monitoring service to track your application's performance. You'll also learn how to use Firebase's crash reporting service to track your application's crashes.",
+    //     image: "FirebaseMastery.png",
+    //     live: true,
+    //     technologies: ["React", "TailwindCSS", "Firebase"],
+    //     link: "https://firebase-mastery-by.base44.app/",
+    //     github: null
+    // },
+    // {
+    //     title: "Aykays-Project LandingPage Generator",
+    //     desc: "Crafty is a sleek, modern web application that offers a creative platform for users to design, share, and manage their artistic projects. The interface is built to be intuitive and visually engaging, allowing seamless navigation between creative tools, galleries, and project templates. It supports responsive design so that creators can work from desktops, tablets, or mobile devices without compromise. Users can upload images, collaborate on designs, and curate portfolios or showcase work to an audience. Key Functionalities: 🎨 Design editor with drag-and-drop tools • 📂 Media upload & asset management • 📱 Responsive interface • 👤 Authentication & project saving • 🔄 Real-time preview • 🖼️ PNG download/export support • ⚡ Fast rendering and performance optimization. ",
+    //     image: "LandingPage.png",
+    //     live: true,
+    //     technologies: ["Next.js/React", "TailwindCSS", "Node.js", "Cloud Storage (AWS/Cloudinary)"],
+    //     link: "https://crafty.base44.app/",
+    //     github: null
+    // },
+    // {
+    //     title: "Aykays-Project (UI of the Project On Aykays)",
+    //     desc: "This project is a modern government and public sector services landing page UI, built entirely with HTML, CSS, and JavaScript. It showcases a clean, responsive layout with structured sections, including key statistics, service capabilities, program highlights, and solution priorities. The design focuses on trust-building and professionalism, with an emphasis on clear typography, balanced spacing, and visual hierarchy. As a frontend-only implementation, the project demonstrates skills in creating pixel-perfect layouts, responsive design, and user-friendly interfaces without backend integration.",
+    //     image: "UI-Aykays.png",
+    //     live: true,
+    //     technologies: ["HTML", "CSS3", "Javascript"],
+    //     link: "./UI-index.html",
+    //     github: null
+    // },
     {
         title: "Görev-Aracısı (Task-Manager AI Agent)",
         desc: "Twitter X ek modern, fully responsive social media platform hai jo React aur Tailwind CSS par based hai. Ye platform users ko real-time mein posts create, edit, aur share karne ki suvidha deta hai. Users apne thoughts, images, aur videos ko tweets ke roop mein share kar sakte hain, dusre users ke tweets ko like, comment, aur retweet kar sakte hain. Platform mein live updates, notifications, aur trending topics jaise features shamil hain, jo ek engaging aur seamless experience provide karte hain. Twitter X sleek design ke saath performance-oriented hai, jismein security aur scalability bhi ensured hai, making it an ideal platform for connecting with friends, following influencers, aur latest news se updated rehne ke liye.",
@@ -186,15 +186,15 @@ const ProjectInfo = [
         link: "https://task-aracisi.vercel.app/",
         github: "https://github.com/AmnaQasmi/Task-Aracisi"
     },
-    {
-        title: "Interview-Project MYBindle App UI ",
-        desc: "Twitter X ek modern, fully responsive social media platform hai jo React aur Tailwind CSS par based hai. Ye platform users ko real-time mein posts create, edit, aur share karne ki suvidha deta hai. Users apne thoughts, images, aur videos ko tweets ke roop mein share kar sakte hain, dusre users ke tweets ko like, comment, aur retweet kar sakte hain. Platform mein live updates, notifications, aur trending topics jaise features shamil hain, jo ek engaging aur seamless experience provide karte hain. Twitter X sleek design ke saath performance-oriented hai, jismein security aur scalability bhi ensured hai, making it an ideal platform for connecting with friends, following influencers, aur latest news se updated rehne ke liye.",
-        image: "MyBindle.png",
-        live: true,
-        technologies: ["Figma", "Html", "CSS", "Javascript"],
-        link: "https://mybindle-black.vercel.app/",
-        github: "https://github.com/AmnaQasmi/My-Bindle"
-    }
+    // {
+    //     title: "Interview-Project MYBindle App UI ",
+    //     desc: "Twitter X ek modern, fully responsive social media platform hai jo React aur Tailwind CSS par based hai. Ye platform users ko real-time mein posts create, edit, aur share karne ki suvidha deta hai. Users apne thoughts, images, aur videos ko tweets ke roop mein share kar sakte hain, dusre users ke tweets ko like, comment, aur retweet kar sakte hain. Platform mein live updates, notifications, aur trending topics jaise features shamil hain, jo ek engaging aur seamless experience provide karte hain. Twitter X sleek design ke saath performance-oriented hai, jismein security aur scalability bhi ensured hai, making it an ideal platform for connecting with friends, following influencers, aur latest news se updated rehne ke liye.",
+    //     image: "MyBindle.png",
+    //     live: true,
+    //     technologies: ["Figma", "Html", "CSS", "Javascript"],
+    //     link: "https://mybindle-black.vercel.app/",
+    //     github: "https://github.com/AmnaQasmi/My-Bindle"
+    // }
 ]
 
 const socialLinks = [
