@@ -30,7 +30,7 @@ const ResumeViewer = (props: any) => {
             </Modal.Header>
             <Modal.Body className="!bg-bgColor !pt-2 !border-primaryColor !border-2 !rounded-br-3xl !rounded-bl-3xl !border-t-0 ">
                 {/* This is how you gonna add pdf file { npm i react-pdf } */}
-                <Document file="/Amna_Resume.pdf" >
+                <Document file="./Amna_Resume.pdf" >
                     <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false} />
                 </Document>
             </Modal.Body>

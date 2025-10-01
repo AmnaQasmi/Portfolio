@@ -14,7 +14,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url,
 ).toString();
 
-
 export function App() {
   useEffect(()=>{
     AOS.init();
